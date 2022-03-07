@@ -1,0 +1,12 @@
+# conda env update -n data-visualisation --file environment.yml --prune
+name: data-visualisation
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - seaborn
+  - jupyter
+  - dash
+  - jupyter-dash
+  - plotly
